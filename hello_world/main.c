@@ -16,14 +16,23 @@ void main(){
     exit(0);
 }
 
+/*
+* This writes a string
+*/
 void write_something(){
     printf("This is a function . . . i think\n");
 }
 
+/*
+* This adds two integers together
+*/
 int integer_add(int x, int y){
     return x + y;
 }
 
+/*
+* converts a character into Ascii
+*/
 void toAscii(char x){
     printf("a in ascii is %d", x);
 }
